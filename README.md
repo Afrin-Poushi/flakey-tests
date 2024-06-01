@@ -6,4 +6,4 @@ Tests that should consistently pass or fail may sometimes pass and sometimes fai
 
 # Description
 The repository hosts a Node.js script designed for identifying flaky tests that are dependent on implementation details using the NonDex tool, along with those that are influenced by the order of execution via the iDFlakies tool.
-
+ CSV report contains list of executed tests with a column that indicates whether a test is deleted, not flaky anymore, still flaky, or newly found.
